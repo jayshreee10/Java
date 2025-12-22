@@ -138,6 +138,12 @@ public class InternetData {
             dataLimit = premiumDataLimit;
         }
 
+        else {
+            planType = "Default";
+            baseCost = 10;
+            dataLimit = 10;
+        }
+
         if (dataUsed > dataLimit) {
             double extraData = dataUsed - dataLimit;
 
