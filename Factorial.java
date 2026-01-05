@@ -1,4 +1,4 @@
-package programs;
+
 
 //Factorial of a number
 // Input: n = 5
